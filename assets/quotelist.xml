@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quotes>
+    <entry>
+        <category>birthday</category>
+        <content>Happy Birthday from Oscar Wilde</content>
+        <author>Oscar Wilde</author>
+    </entry>
+    <entry>
+        <category>birthday</category>
+        <content>Sample Birthday quote from mother Teresa</content>
+        <author>Teresa</author>
+    </entry>
+    <entry>
+        <category>birthday</category>
+        <content>Happy Birthday, from sir Barack Obama</content>
+        <author>Barack Obama</author>
+    </entry>
+    <entry>
+        <category>birthday</category>
+        <content>Some random birthday quote from Friendrich</content>
+        <author>Friedrich Nietsze</author>
+    </entry>
+    <entry>
+        <category>birthday</category>
+        <content>Happy Birthday from Aristotle, Happy Birthday!!</content>
+        <author>Aristotle</author>
+    </entry>
+</quotes>

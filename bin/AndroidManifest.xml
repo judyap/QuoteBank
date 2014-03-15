@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quotebank"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.example.quotebank.MainmenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.Auth"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Auth" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.AuthClicked"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AuthClicked" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.Credits"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Credits" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.Category"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Category" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.CategoryClicked"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.CategoryClicked" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.RandomClass"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RandomClass" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.quotebank.TopFive"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TopFive" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/books2"
+    android:padding="10dp"
+     >
+     <LinearLayout 
+         android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/toplayer"
+         android:padding="10dp">
+         
+         <ImageView 
+         android:src="@drawable/ic_launcher"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/authimg"
+         
+         />
+         
+         <TextView
+         android:text="sample"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:id="@+id/authname"
+         android:textColor="#ffffff"
+         android:textSize="25sp"
+         android:textStyle="bold"
+         />
+         
+     </LinearLayout>
+
+
+  <ScrollView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/whitecustom"
+      android:layout_below="@id/toplayer" >
+
+      <TextView 
+          android:id="@+id/desc"
+          android:layout_gravity="top|left"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="sample author description"
+          android:lineSpacingExtra="5dp"
+          android:textColor="#ffffff"
+          android:padding="10dp"/>
+  </ScrollView>
+    
+ 
+</RelativeLayout>
